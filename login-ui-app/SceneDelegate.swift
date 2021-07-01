@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  login-ui-app
-//
-//  Created by yona nagayama on 6/27/21.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
