@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9E24087268E72AA008FBF25 /* ViewController+revealPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E24086268E72AA008FBF25 /* ViewController+revealPassword.swift */; };
+		F9E2408A268E72F1008FBF25 /* ViewController+switchOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E24089268E72F1008FBF25 /* ViewController+switchOption.swift */; };
+		F9E2408D268E7317008FBF25 /* ViewController+signIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E2408C268E7317008FBF25 /* ViewController+signIn.swift */; };
+		F9E24090268E734B008FBF25 /* ViewController+452.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E2408F268E734B008FBF25 /* ViewController+452.swift */; };
+		F9E24093268E737C008FBF25 /* ViewController+viewDidLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E24092268E737C008FBF25 /* ViewController+viewDidLoad.swift */; };
 		F9E923422688FCB300D78E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E923412688FCB300D78E23 /* AppDelegate.swift */; };
 		F9E923442688FCB300D78E23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E923432688FCB300D78E23 /* SceneDelegate.swift */; };
 		F9E923462688FCB300D78E23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E923452688FCB300D78E23 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9E24086268E72AA008FBF25 /* ViewController+revealPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+revealPassword.swift"; sourceTree = "<group>"; };
+		F9E24089268E72F1008FBF25 /* ViewController+switchOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+switchOption.swift"; sourceTree = "<group>"; };
+		F9E2408C268E7317008FBF25 /* ViewController+signIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+signIn.swift"; sourceTree = "<group>"; };
+		F9E2408F268E734B008FBF25 /* ViewController+452.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+452.swift"; sourceTree = "<group>"; };
+		F9E24092268E737C008FBF25 /* ViewController+viewDidLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+viewDidLoad.swift"; sourceTree = "<group>"; };
 		F9E9233E2688FCB300D78E23 /* login-ui-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "login-ui-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E923412688FCB300D78E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9E923432688FCB300D78E23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +69,11 @@
 				F9E923412688FCB300D78E23 /* AppDelegate.swift */,
 				F9E923432688FCB300D78E23 /* SceneDelegate.swift */,
 				F9E923452688FCB300D78E23 /* ViewController.swift */,
+				F9E24092268E737C008FBF25 /* ViewController+viewDidLoad.swift */,
+				F9E2408F268E734B008FBF25 /* ViewController+452.swift */,
+				F9E2408C268E7317008FBF25 /* ViewController+signIn.swift */,
+				F9E24089268E72F1008FBF25 /* ViewController+switchOption.swift */,
+				F9E24086268E72AA008FBF25 /* ViewController+revealPassword.swift */,
 				F9E923472688FCB300D78E23 /* Main.storyboard */,
 				F9E9234A2688FCB500D78E23 /* Assets.xcassets */,
 				F9E9234C2688FCB500D78E23 /* LaunchScreen.storyboard */,
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E2408A268E72F1008FBF25 /* ViewController+switchOption.swift in Sources */,
 				F9E923462688FCB300D78E23 /* ViewController.swift in Sources */,
+				F9E24093268E737C008FBF25 /* ViewController+viewDidLoad.swift in Sources */,
+				F9E2408D268E7317008FBF25 /* ViewController+signIn.swift in Sources */,
+				F9E24090268E734B008FBF25 /* ViewController+452.swift in Sources */,
 				F9E923422688FCB300D78E23 /* AppDelegate.swift in Sources */,
+				F9E24087268E72AA008FBF25 /* ViewController+revealPassword.swift in Sources */,
 				F9E923442688FCB300D78E23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
